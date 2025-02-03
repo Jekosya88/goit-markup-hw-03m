@@ -6,15 +6,20 @@ body {
 
 ul,ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
- 
-a {
+  .h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+
+  a {
     text-decoration: none;
 }
   .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0 15px;
+    padding-right: 0 15px;
     margin: 0 auto;
   }
 
@@ -33,24 +38,26 @@ a {
         overflow: hidden;
       }
   
-
-  .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc;
-  }
-   
+ 
  .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
  }
  
- 
+  .page-header {
+    border-bottom: 1px solid #e7e9fc;
+  }
   
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
 
-.header-logo {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700; 
     font-size: 18px;
@@ -58,18 +65,35 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+   
 }
      
+ .header-logo {
+    margin-right: 76px;
+    padding: 24px 0;
+
+ }
+ 
 .header-logo .logo-part {
  color: #2e2f42;
- margin-right: 76px
+
 }
+
+ .nav-list {
+    display: flex;
+    align-items:center ;
+    gap: 40px;
+ }
+
+
 .nav-link {
     font-weight: 500;
     font-size:16px ;
     line-height: 1.5;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   padding: 24px 0;
+   display: block;
 }
  
  .nav-item {
@@ -79,25 +103,13 @@ a {
     padding: 24px 0;
  } 
 
-  .nav-item-two{
+  .nav-header {
+    display: flex;
     align-items: center;
-    display: flex;
-    gap: 40px;
-    padding: 24px 0;
   }
+  
 
-  .nav-item-three {
-    align-items: center;
-    display: flex;
-    gap: 40px;
-    padding: 24px 0;
-  }
-
- .header-menu-list {
-    display: flex;
-    gap: 40px;
-    
- }
+ 
 
 .nav-link:hover {
 
@@ -110,21 +122,25 @@ a {
  
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
-  .contacts-list {
-    justify-content: space-between;
-   align-items: center;
-   gap: 40px;
-   display: flex;
-  }
+ .contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+ }
+
+
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
+   
 }
 
 .contacts-link:hover {
@@ -247,30 +263,14 @@ margin-bottom: 8px;
  padding: 120px 0 120px;
 }
 
-.name-mark {
+.name-g {
     padding: 32px 0; 
     text-align: center;
     margin-bottom: 8px;
 }
 
-.name-tom {
-    padding: 32px 0; 
-    text-align: center;
-    margin-bottom: 8px;
-}
 
-.name-camila {
-    padding: 32px 0; 
-    text-align: center;
-    margin-bottom: 8px;
-}
-
-.name-daniel {
-    padding: 32px 0; 
-    text-align: center;
-    margin-bottom: 8px;
-}
-
+    
 .team-image {
     background-color: #FFFFFF;
 }
@@ -342,19 +342,7 @@ text-transform: capitalize;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px
- }
- .name-marketing {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px
- }
-
- .name-design {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px
+ 
  }
 
 .portfolio-item {  
