@@ -38,7 +38,7 @@ ul,ol {
       }
   
  
-  .img {
+  img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -320,9 +320,9 @@ margin-bottom: 8px;
 .portfolio {
     background-color: #FFFFFF;
     padding: 120px 0 120px;
-    margin-bottom: 72px;
+    
 }
-.portfolio-h {
+.portfolio-title {
   
 color: #2e2f42;
 font-family: Roboto;
@@ -332,6 +332,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 
 .portfolio-list {
