@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
+    margin: 0;
 }
 
 ul,ol {
@@ -9,7 +10,7 @@ ul,ol {
     margin: 0;
     padding: 0;
 }
-  .h1, h2, h3, h4, h5, h6, p {
+   h1, h2, h3, h4, h5, h6, p {
     margin: 0;
   }
 
@@ -72,9 +73,6 @@ ul,ol {
      
  .header-logo {
     margin-right: 76px;
-    position: static;
-width: 71px;
-height: 21px;
     
 
  }
@@ -169,6 +167,7 @@ height: 21px;
     color: #434455;
 }
 
+
  .order-button:hover{
     background-color: #404BBF;
  }
@@ -187,26 +186,25 @@ padding: 188px 0;
 }
 
 
-
 .button {
     background-color: #404BBF;
 }
 
 .hero-title {   
-max-width: 496px;
-font-family: Roboto;
-font-size: 56px;
-font-weight: 700;
+  font-size: 56px;
+  font-weight: bold;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #ffff;
-padding: 16px 32px;
-
+color: #fff;
+max-width: 496px;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 46px;
+margin-left: auto;
 }
 
 .order-button {
-
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -218,7 +216,8 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
- 
+text-align: center;
+margin:  0 auto;
 }
 
 .features {
